@@ -42,8 +42,5 @@ class Main {
         miCoche.abrirVentanaD();
         System.out.println(miCoche);
         */
-        System.out.println(abrirPuertas(2));
-        System.out.println(abrirVentanas(1));
-        //No se imprime porque me da fallos en las funciones y no se como solucionarlos
       }
 }
