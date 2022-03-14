@@ -37,9 +37,9 @@ class Coche{
     //Funcion para abrir la ventana que quiera
     public void abrirVentanas(int numero){
       if (numero == 1) {
-        System.out.println(miCoche.getPuertaDelI().getVentanaDelD().abrir() + "La ventana delantera izquierda se ha abierto");
+        System.out.println(miCoche.getPuertaDelI().getVentanaDelI().abrir() + "La ventana delantera izquierda se ha abierto");
       } else if (numero == 2) {
-        System.out.println(miCoche.getPuertaDelD().getVentanaDelI().abrir() + "La ventana delantera derecha se ha abierto");
+        System.out.println(miCoche.getPuertaDelD().getVentanaDelD().abrir() + "La ventana delantera derecha se ha abierto");
       }
     }
 
